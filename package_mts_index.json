@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "MTS",
+      "maintainer": "Mobile Telesystems PJSC",
+      "websiteURL": "http://wwww.mts.ru",
+      "email": "vbluchan@mts.ru",
+      "help": {"online": "http://www.mts.ru"},
+      "platforms": [
+        {
+          "name": "MTS Development boards",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {"online": "http://www.mts.ru"},
+          "url": "file://c:/Arduino/mts-1.0.0.zip",
+          "archiveFileName": "mts-1.0.0.zip",
+          "checksum": "SHA-256:a7f9ed1b88931035848ac463a9d76e976cd4f495b47b1f6264f932bca5675279",
+          "size": "21012480",
+          "boards": [
+            {"name": "MTS NB-IoT Development board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STM32",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "1.3.1"
+            },
+            {
+              "packager": "STM32",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
