@@ -13,8 +13,8 @@
           "version": "1.0.0",
           "category": "Contributed",
           "help": {"online": "http://www.mts.ru"},
-          "url": "file://c:/Arduino/mts-1.0.0.zip",
-          "archiveFileName": "mts-1.0.0.zip",
+          "url": "https://github.com/Shureck/smth/raw/master/MTS-1.0.0.zip",
+          "archiveFileName": "MTS-1.0.0.zip",
           "checksum": "SHA-256:a7f9ed1b88931035848ac463a9d76e976cd4f495b47b1f6264f932bca5675279",
           "size": "21012480",
           "boards": [
